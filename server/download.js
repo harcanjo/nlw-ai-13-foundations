@@ -1,6 +1,5 @@
 import ytdl from 'ytdl-core';
 import fs from 'fs';
-import { error } from 'console';
 
 export const download = (videoId) => {
   const videoURL = "https://www.youtube.com/shorts/" + videoId
