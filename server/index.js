@@ -27,6 +27,10 @@ app.get('/summary/:id', async (request, response) => {
 app.post('/summary/', async (request, response) => {
   try {
     const result = await summarize(request.body.text)
+
+    
+
+
     return response.json({ result })
   } catch (error) {
     console.log(error);
@@ -35,12 +39,3 @@ app.post('/summary/', async (request, response) => {
 })
 
 app.listen(3333, () => console.log('Server is running on port 3333'))
-
-
-
-
-
-
-
-
-
