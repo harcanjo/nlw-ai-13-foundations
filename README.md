@@ -6,4 +6,7 @@ Shorts Summary é uma aplicação web para criar resumo de vídeos shorts do You
 
 ![Shorts Summary Frontend](./screenshots/frontend.png)
 
-
+**Ideias para aprimorar**
+- [ ] Vídeos do TikTok
+- [ ] Testar outros modelos de AI
+- [ ] Vídeos longos do YouTube
