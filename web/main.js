@@ -1,5 +1,6 @@
 // JS
 import './form.js';
+import './server.js';
 
 // CSS
 import './styles/base.css';
